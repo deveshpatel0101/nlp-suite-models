@@ -32,8 +32,8 @@ class VoteClassifier(ClassifierI):
         return conf
 
 
-short_pos = open("short_reviews/positive.txt", "r").read()
-short_neg = open("short_reviews/negative.txt", "r").read()
+short_pos = open("data/positive.txt", "r").read()
+short_neg = open("data/negative.txt", "r").read()
 
 all_words = []
 documents = []
