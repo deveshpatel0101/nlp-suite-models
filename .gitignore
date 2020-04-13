@@ -1,0 +1,6 @@
+pickled_algos/
+venv/
+env/
+data/
+.vscode
+__pycache__
